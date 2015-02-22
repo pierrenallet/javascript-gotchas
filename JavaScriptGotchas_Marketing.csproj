@@ -57,10 +57,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="gotchas\images\dates_problem.png" />
+    <Content Include="gotchas\images\dates_recommendation.png" />
+    <Content Include="gotchas\images\nan_problem.png" />
+    <Content Include="gotchas\images\nan_recommendation.png" />
+    <Content Include="gotchas\images\number_precision_problem.png" />
+    <Content Include="gotchas\images\number_precision_recomendation.png" />
+    <Content Include="gotchas\images\parseInt_problem.png" />
+    <Content Include="gotchas\images\parseInt_recommendation.png" />
     <Content Include="gotchas\images\return_problem.png" />
     <Content Include="gotchas\images\return_recommendation.png" />
     <Content Include="gotchas\images\switch_problem.png" />
     <Content Include="gotchas\images\switch_recommendation.png" />
+    <Content Include="gotchas\values-nan-numbers.html" />
+    <Content Include="gotchas\values-number-precision-integers.html" />
+    <Content Include="gotchas\values-dates.html" />
+    <Content Include="gotchas\values-parseInt.html" />
     <Content Include="gotchas\syntax-switch.html" />
     <Content Include="gotchas\syntax-returns.html" />
     <Content Include="gotchas\common-javascript-errors-and-mistakes.html" />
