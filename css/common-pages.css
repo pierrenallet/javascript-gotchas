@@ -22,7 +22,7 @@
     margin-bottom: 30px;
 }
 
-.intro-content-section {
+.intro-content-section, .gotcha-section {
     text-align: left;
     max-width: 700px;
     margin: auto;
@@ -41,4 +41,27 @@
 
 .list-section li {
 
+}
+
+.the-problem h2 {
+   color: red;
+}
+
+.the-solution {
+    color: darkgreen;
+    margin-top: 50px;
+}
+
+.gotcha-section {
+    text-align: center;
+    
+}
+.gotcha-section a {
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.the-class-cta {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }

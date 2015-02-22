@@ -57,6 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="gotchas\images\return_problem.png" />
+    <Content Include="gotchas\images\return_recommendation.png" />
+    <Content Include="gotchas\images\switch_problem.png" />
+    <Content Include="gotchas\images\switch_recommendation.png" />
+    <Content Include="gotchas\syntax-switch.html" />
     <Content Include="gotchas\syntax-returns.html" />
     <Content Include="gotchas\common-javascript-errors-and-mistakes.html" />
     <Content Include="css\bootstrap.css" />
