@@ -57,11 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="gotchas\syntax-returns.html" />
+    <Content Include="gotchas\common-javascript-errors-and-mistakes.html" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\common-pages.css" />
     <Content Include="css\landing-page.css" />
     <Content Include="font-awesome\css\font-awesome.css" />
     <Content Include="font-awesome\css\font-awesome.min.css" />
@@ -114,6 +114,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="params.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
