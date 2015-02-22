@@ -65,6 +65,8 @@
     <Content Include="gotchas\images\number_precision_recomendation.png" />
     <Content Include="gotchas\images\parseInt_problem.png" />
     <Content Include="gotchas\images\parseInt_recommendation.png" />
+    <Content Include="gotchas\images\plus_problem.png" />
+    <Content Include="gotchas\images\plus_recommendation.png" />
     <Content Include="gotchas\images\return_problem.png" />
     <Content Include="gotchas\images\return_recommendation.png" />
     <Content Include="gotchas\images\switch_problem.png" />
@@ -72,6 +74,8 @@
     <Content Include="gotchas\values-nan-numbers.html" />
     <Content Include="gotchas\values-number-precision-integers.html" />
     <Content Include="gotchas\values-dates.html" />
+    <Content Include="gotchas\equality-.html" />
+    <Content Include="gotchas\values-plus.html" />
     <Content Include="gotchas\values-parseInt.html" />
     <Content Include="gotchas\syntax-switch.html" />
     <Content Include="gotchas\syntax-returns.html" />
