@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Subscribed - JavaScript Gotchas</title>
+    <title>Download Book - JavaScript Gotchas</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -79,7 +79,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Thanks for subscribing</h1>
+                        <h1>Download the JavaScript Gotchas Booklet</h1>
                     </div>
                 </div>
             </div>
@@ -90,21 +90,49 @@
     </div>
     <!-- /.intro-header -->
     <!-- Page Content -->
-
+    <br />
+    <br />
     <div class="content-section-flat">
 
         <div class="container">
             <div class="row">
 
                 <div class="gotcha-section thanks">
-                    <h2>Thank you for subscribing.</h2>
-                    
-                    <div>
-                        We've super excited to have you join our community.<br />
-                        <br />
-                        We will treat your email gently. <br />
-                        Have a great day and write some quality JavaScript!
-                    </div>
+
+
+                    <form action="http://courses-backend.azurewebsites.net/services/addsubscriber/"
+                          method="post" class="validate" target="_blank">
+                        <div>
+                            <div>
+                                <label for="mce-EMAIL" id="email-leading"
+                                       style="font-size: 28px; font-weight: normal">Enter your email to download our booklet</label>
+
+                                <div style="height: 1.2em;"></div>
+
+                                <input type="email" value="" name="email"
+                                       placeholder=' your email address - never resold'
+                                       style="display: inline-block; width: 300px; margin-right: 10px; "
+                                       class="required email form-control">
+                                <button type="submit"
+                                        class="button btn btn-danger"
+                                        style="margin-top: -4px; display: inline-block;">
+                                    Download
+                                </button>
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;">
+                                <input type="text"
+                                       name="b_e31a0ccb2bd82c2151c88b850_be223f83a4"
+                                       tabindex="-1" value="">
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <input type="hidden" name="format" value="formpost" id="format" />
+                        <input type="hidden" name="book" value="javascriptgotchas" id="book" />
+                    </form>
+
+
+
                 </div>
             </div>
 
@@ -119,37 +147,7 @@
     </div>
     <!-- /.content-section-a -->
 
-    <a name="contact"></a>
 
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 style="white-space: nowrap;">Connect with JavaScript Gotchas</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/js_gotchas" class="btn btn-default btn-lg">
-                                <i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/pierrenallet/javascript-gotchas" class="btn btn-default btn-lg">
-                                <i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
     <!-- Footer -->
     <footer>
         <div class="container">
