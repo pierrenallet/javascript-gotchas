@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="css/site.css" rel="stylesheet" />
+    <script src="javascript/logging.js"></script>
+    <script src="javascript/site.js"></script>
+</head>
+<body>
+    <div class="title-section">
+        Gotcha: equals vs. assignment
+    </div>
+
+    <div class="content">
+        <div>
+            Would you like to buy this item for $999.99?
+        </div>
+        <div>
+            <button id="buy" onclick=" javascript: buy('iPad'); "
+                    class="btn btn-success">
+                Yes, I want it!
+            </button>
+            <button id="cancel" onclick=" javascript: buy(null); "
+                    class="btn btn-danger">
+                Actually, no thanks
+            </button>
+        </div>
+    </div>
+    <div class="message-area" id="messageContainer">
+        <h3>JavaScript Log </h3>
+        <div id="messageArea"></div>
+    </div>
+</body>
+</html>

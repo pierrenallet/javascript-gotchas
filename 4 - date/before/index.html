@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="title-section">
+		Gotcha: a bad date
+	</div>
+
+	<div class="content">
+		<div>
+            <div>Enter a date</div>
+            <input type="text" id="input" />
+            <button onclick="consumeDate()" value="1/1/2015">Click me to get date</button>
+            <div>You entered</div>
+            <div>Day: <span id="day"></span></div>
+            <div>Month: <span id="month"></span></div>
+            <div>Year: <span id="year"></span></div>
+		</div>
+		<div id="output"></div>
+	</div>
+	<div class="message-area" id="messageContainer">
+		<h3>JavaScript Log </h3>
+		<div id="messageArea"></div>
+	</div>
+	<script src="javascript/logging.js"></script>
+	<script src="javascript/site.js"></script>
+</body>
+</html>

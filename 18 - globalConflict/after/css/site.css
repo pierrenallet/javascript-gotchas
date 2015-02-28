@@ -1,0 +1,65 @@
+﻿@import url('../bootstrap/css/bootstrap.min.css');
+@import url('../bootstrap/css/bootstrap-theme.min.css');
+
+body {
+	background: #ddd;
+	font-size: 20px;
+}
+
+.title-section {
+	height: 64px;
+	background: #222;
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+	padding: 10px;
+	padding-left: 30px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.content {
+	padding: 20px;
+	padding-top: 20px;
+	margin-top: 63px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5em;
+}
+
+.message-area {
+    margin-top: 30px;
+    padding: 15px;
+    padding-top: 0px;
+    font-family: consolas;
+    border: solid 1px #999;
+    background: #222;
+    color: yellow;
+    display: none;
+    overflow-y: auto;
+    height: 200px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+.message-area h3 {
+	margin-top: 5px;
+}
+
+#messageArea {
+	color: white;
+}
+
+.error-message {
+	color: red;
+	font-weight: bold;
+}
+
+
+.warning-message {
+	color: lightcoral;
+	font-weight: bold;
+}
